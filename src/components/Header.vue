@@ -47,12 +47,12 @@
     <div class="flex gap-10 font-semibold text-gray-200">
         <ul>
             <li>
-        <a href="" class="pages hover:text-[#06bee1]">Home</a> 
+        <router-link :to="{ name: 'home' }" class="pages hover:text-[#06bee1]">Home</router-link> 
             </li>
         </ul>
         <ul>
             <li>
-        <a href="" class="pages hover:text-[#06bee1]">About Us</a>
+        <router-link :to="{ name: 'about' }" class="pages hover:text-[#06bee1]">About Us</router-link>
             </li>
         </ul>
         <ul>

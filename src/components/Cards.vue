@@ -1,7 +1,7 @@
 <template>
             <div class="cards flex rounded-xl mt-5">
                 <img src="https://res.cloudinary.com/holidayfox/w_900,h_900,c_limit,q_auto:eco,f_auto,dpr_1.5/v1608578151/mgviyz8fkaobzkr1btlg.png" alt="..." class="rounded-[50%] w-[55px] h-[55px] my-2 mx-2">
-                <p class="my-3 mx-2">{{ info }}</p> 
+                <p class="my-3 mx-2 ">{{ info }}</p> 
                 <button 
                 class="px-3 h-25 rounded-xl mt-4 mx-3"
                 @click="deletComment" >
