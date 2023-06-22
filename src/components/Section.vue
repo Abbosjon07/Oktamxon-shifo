@@ -10,7 +10,9 @@
                 <img src="../assets/images/portrait-muslim-female-doctor-stethoscope-isolated-white-background-portrait-muslim-female-doctor-stethoscope-199987759.jpg" alt="..." class="rounded-[50%] w-[65px] h-[65px] shadow-xl mt-5 mb-10 mx-auto border">
                 <h3 class="text-xl font-semibold mb-5">Our specialist</h3>
                 <p class="mb-5 mx-5">In our clinic There is the best cardiologist that will help you to sould all your problems!!!</p>
+                <router-link :to="{ name: 'doctors' }">
                 <v-btn class="bg-pink-accent-1 py-2 px-2 mb-10 rounded-xl">Know about her</v-btn>
+                </router-link>
             </div>
             <div class="cards w-[250px] border shadow-2xl rounded-xl bg-white">
                 <img src="../assets/images/4047.png" alt="..." class="rounded-[50%] w-[65px] h-[65px] shadow-xl mt-5 mb-10 mx-auto border">

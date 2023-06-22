@@ -41,33 +41,32 @@
 <!-- Header -->
 <div class="header flex justify-between text-xl px-5 py-2 items-center">   
     <div class="img flex gap-3 items-center">
-        <ul><li><i class="fa-solid fa-heart-pulse text-3xl text-pink-400"></i></li></ul>
-        <h2 class="w-10 text-gray-200">O'ktamxon shifo</h2>
+    <img class="h-[70px]" src="../assets/images/Снимок экрана 2023-06-21 232333.png" alt="">
     </div>
     <div class="flex gap-10 font-semibold text-gray-200">
         <ul>
             <li>
-        <router-link :to="{ name: 'home' }" class="pages hover:text-[#06bee1]">Home</router-link> 
+        <router-link :to="{ name: 'home' }" class="pages hover:text-[#06bee1]">Главные</router-link> 
             </li>
         </ul>
         <ul>
             <li>
-        <router-link :to="{ name: 'about' }" class="pages hover:text-[#06bee1]">About Us</router-link>
+        <router-link :to="{ name: 'about' }" class="pages hover:text-[#06bee1]">О нас</router-link>
             </li>
         </ul>
         <ul>
             <li>
-        <a href="" class="pages hover:text-[#06bee1]">Services</a>
+        <router-link :to="{ name: 'services' }" class="pages hover:text-[#06bee1]">Сервисы</router-link>
             </li>
         </ul>
         <ul>
             <li>
-        <a href="" class="pages hover:text-[#06bee1]">Doctors</a>
+        <router-link :to="{ name: 'doctors' }" class="pages hover:text-[#06bee1]">Докторы</router-link>
             </li>
         </ul>
         <ul>
             <li>
-        <a href="" class="pages hover:text-[#06bee1]">Location</a>
+        <router-link :to="{ name: 'location' }" class="pages hover:text-[#06bee1]">Локация</router-link>
             </li>
         </ul>
     </div>

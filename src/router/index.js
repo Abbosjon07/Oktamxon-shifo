@@ -20,6 +20,16 @@ const router = createRouter({
       name: 'services',
       component: () => import('../views/ServicesView.vue')
     },
+    {
+      path: '/location',
+      name: 'location',
+      component: () => import('../views/LocationView.vue')
+    },
+    {
+      path: '/doctors',
+      name: 'doctors',
+      component: () => import('../views/DoctorsView.vue')
+    },
     
     // 404 ------------->>>>>>>>>>>>
     {
