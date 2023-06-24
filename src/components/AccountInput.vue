@@ -11,7 +11,7 @@
                 <div class="pt-[10px]">
                 <v-btn 
                 class=" bg-light-blue-darken-3 text-end my-5 ml-2"
-                @click="sendCmment">send</v-btn> 
+                @click="sendCmment">отправить</v-btn> 
                 </div> 
             </div> 
     </div>

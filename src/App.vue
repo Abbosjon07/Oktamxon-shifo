@@ -1,7 +1,11 @@
 <template>
 <div>
     <Header/> 
-  <RouterView />
+   <router-view v-slot="{ Component }">
+    <transition name="scale-effect" mode="out-in">
+      <component :is="Component" />
+    </transition>
+  </router-view>
    <Footer/>
 </div>
 </template>
@@ -35,6 +39,15 @@ body {
   background: #84cdeb;
 }
 
+.scale-effect-enter-active,
+.scale-effect-leave-active {
+  transition: all 0.5s ease;
+}
 
+.scale-effect-enter-from,
+.scale-effect-leave-to {
+  opacity: 0;
+  transform: scale(0.9);
+}
 </style>
  

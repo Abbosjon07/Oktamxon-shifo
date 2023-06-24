@@ -46,7 +46,7 @@
     <div class="flex gap-10 font-semibold text-gray-200">
         <ul>
             <li>
-        <router-link :to="{ name: 'home' }" class="pages hover:text-[#06bee1]">Главные</router-link> 
+        <router-link :to="{ name: 'home' }" class="pages hover:text-[#06bee1]">Главная</router-link> 
             </li>
         </ul>
         <ul>

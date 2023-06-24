@@ -3,10 +3,8 @@
         
         <div class=" mt-16">
             <div class="flex">
-            <i class="fa-solid fa-heart-pulse text-6xl text-red-400 px-5"></i>
             <div class="text-gray-300 text-2xl">
-            <h1 class="">O'ktamxon</h1>
-            <h1 class="text-red-400">shifo</h1>
+                <img class="w-[150px]" src="../assets/images/Снимок экрана 2023-06-21 232333.png" alt="logo">
             </div>
             </div>
             <p class="w-[200px] mt-5 text-xl text-gray-300">Приветствует вас и желает вам крепкого здоровья.Спасибо что выберайте нас</p>                

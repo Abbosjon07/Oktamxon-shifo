@@ -2,7 +2,7 @@
    <div class="flex justify-center text-center">
     <div class="accounts text-gray-700">   
     <div class="title">
-    <h2 class="text-3xl font-semibold my-15">Comments</h2>
+    <h2 class="text-3xl font-semibold my-15">Комментарии</h2>
     </div>  
         <marquee behavior="" direction="down" height="500" scrollamount="5">
         <Cards v-for="(comment, key) in comments" :key="key" :info="comment" :id="key" @commentDeleted="fetchComments"/>
