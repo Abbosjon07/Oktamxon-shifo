@@ -4,9 +4,11 @@
     <div class="title">
     <h2 class="text-3xl font-semibold my-15">Комментарии</h2>
     </div>  
-        <marquee behavior="" direction="down" height="500" scrollamount="5">
-        <Cards v-for="(comment, key) in comments" :key="key" :info="comment" :id="key" @commentDeleted="fetchComments"/>
-        </marquee>
+    
+    <div class="scroller h-[400px] pr-5">
+        <Cards v-for="(comment, key) in comments" :key="key" :info="comment" :id="key" @commentDeleted="fetchComments"/> 
+    </div>
+    
     </div>
     </div>
 </template>
@@ -14,6 +16,7 @@
 <script>
 import { useToast } from 'vue-toastification'
 import Cards from './Cards.vue'
+
 
 export default {
 components: {
@@ -51,9 +54,29 @@ mounted() {
     --lightblue: #06bee1;
 }
 
-
 .cards {
     border: var(--darkblue) 2px solid;
 }
+
+.scroller {
+  height: 400px;
+  overflow-y: scroll;
+  /* scrollbar-color: rebeccapurple green;   */
+  /* background: #2541b2 */
+}
+
+::-webkit-scrollbar {
+    background: #03256c;
+    border-radius: 5%;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #06bee1;
+}
+
+::-webkit-scrollbar-button {
+    background: #1768ac
+}
+
 </style>
 
