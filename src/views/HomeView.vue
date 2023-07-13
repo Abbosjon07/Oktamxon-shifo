@@ -3,10 +3,6 @@
     <Hero/>
     <Section/>
     <AccountList :key="counter"/>
-    <!-- <v-btn @click="popup">Hello
-        
-    <ThePopup"/>
-    </v-btn> -->
     <div class="flex">
     <AccountInput class="w-[1900px]"/>
     <AccountBtn @click="counter++" class="mt-1 pr-2"/>
@@ -41,13 +37,10 @@ export default {
     return {
       api: 'https://o-ktamxon-shifo-default-rtdb.firebaseio.com/comments.json',
       counter: 0,
-      // isOpen: false
     }
     },
     methods: {
-    // popup() {
-    // this.isOpen = true
-    // }
+
   }
 }
 </script>

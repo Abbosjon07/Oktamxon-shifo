@@ -4,30 +4,30 @@
                 <p class="my-3 mx-2 ">{{ info }}</p> 
                 <button 
                 class="h-25 rounded-xl px-3"
-                @click="popupOpen" >
+                @click="isOpen = true">
                 <i class="fa-sharp fa-solid fa-trash text-2xl text-red-500 hover:text-red-400 transition-all"
                 >
                 </i>
-                <div v-if="isOpen" class="layer fixed left-0 top-0 w-full h-full flex justify-center items-center">
-                    <div class="modal p-5 rounded-md bg-white w-[400px] text-xl font-semibold">
-                        <h2 class="text-gray-700">Вы действительно хотите удалить коммент?</h2>  
-                        <div class="mt-4">
-                        <v-btn @click="popupOpen = false" class="mr-2 bg-yellow-darken-3 text-white">отмена</v-btn>
-                        <v-btn @click="deletComment" class="ml-2 bg-red-accent-4">удалить</v-btn>         
-                        </div>
-                    </div>
-                 </div>
+                <transition name="fade">
+                <ThePopup
+                 v-if="isOpen"
+                 @close="isOpen = false"
+                 @delet="deletComment"
+                />
+                </transition>
                 </button>  
     </div>
 </template>
 
  <script>
 import { useToast } from 'vue-toastification'
+import ThePopup from "./ThePopup.vue"
 
 
 export default {
     components: {
-},
+        ThePopup
+    },
     
     props: {
         info: {
@@ -46,9 +46,9 @@ export default {
       }  
     },
     methods: {
-        popupOpen() {
-            this.isOpen = true
-        },
+        // popupOpen() {
+        //     this.isOpen = true
+        // },
         
         async deletComment() {
             await fetch(this.api + this.id + '.json', { method: 'DELETE' })
@@ -77,5 +77,15 @@ export default {
 
 .layer {
     background: rgba(0, 0, 0, 0.8);
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
 }
 </style>
