@@ -11,17 +11,23 @@
             </ul>
             <ul>
                 <li>
+                    <a href="https://youtube.com/@abbosahmadjonov8551">
             <i class="fa-brands fa-instagram text-red-600"></i>
+                    </a>
                 </li>
             </ul>
             <ul>
                 <li>
+                    <a href="tel:+998(90)922-69-84">
             <i class="fa-solid fa-phone text-green-600"></i>
+                    </a>
                 </li>
             </ul>
             <ul>
                 <li>
-            <i class="fa-brands fa-telegram text-[#2541b2]"></i>                    
+                    <a href="https://t.me/htmlvuejsdark">
+            <i class="fa-brands fa-telegram text-[#2541b2]"></i>                        
+                    </a>
                 </li>
             </ul>
         </div>
@@ -29,7 +35,9 @@
         <div class="phoneNumber flex gap-5 text-xl">
             <ul>
                 <li>
+                    <a href="tel:+998(90)922-69-84">
             <i class="fa-solid fa-phone text-[#2541b2]"></i>
+                    </a>
                 </li>
             </ul>
             <ul><li class="">+998(90)922-69-84</li></ul>

@@ -16,10 +16,10 @@
             <a href="https://t.me/htmlvuejsdark">
                 <i class="fa-brands fa-telegram mr-5 text-blue-500"></i> 
             </a>
-            <a href="">
+            <a href="https://www.instagram.com/reel/Cq6PDLxstk4/?igshid=MzRlODBiNWFlZA==">
                 <i class="fa-brands fa-instagram mr-5 text-red-500"></i> 
             </a>
-            <a href="">
+            <a href="https://youtube.com/@abbosahmadjonov8551">
                 <i class="fa-brands fa-youtube mr-5 text-red-600"></i> 
             </a>
             <a href="">

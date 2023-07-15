@@ -1,6 +1,6 @@
 <template>
     <div class="flex justify-center text-center text-gray-700">
-        <div class="section">
+        <div class="section mb-16">
             <div class="title text-3xl font-semibold mb-12 mt-12">
                 <h2>Почему вам стоит доверять <span class="text-pink-400">НАМ</span>?</h2>
                 <h2>Узнайте о нас</h2>
