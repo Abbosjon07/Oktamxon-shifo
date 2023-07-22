@@ -1,5 +1,6 @@
 <template>
 <div>
+  <Preloader />
     <Header/> 
    <router-view v-slot="{ Component }">
     <transition name="scale-effect" mode="out-in">
@@ -14,12 +15,14 @@
 <script>
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
+import Preloader from './components/Preloader.vue'
 
 
 export default {
   components: {
     Header,
     Footer,
+    Preloader
     },
   data() {
     return {
