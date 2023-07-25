@@ -1,5 +1,5 @@
 <template>
-    <div class="herobg pb-5">
+    <div class="herobg pb-5 h-full max-w-full">
         <div class="flex hero h-[500px] text-gray-100 pl-[50px] justify-center">
             <div class="pt-[195px]">
             <h1 class="text-5xl w-[650px] font-semibold">Лучшая медицинская служба, которая <span class="text-pink-400">ВЫ</span> можите доверять!</h1>

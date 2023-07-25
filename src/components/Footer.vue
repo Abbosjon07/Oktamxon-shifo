@@ -1,13 +1,13 @@
 <template>
-    <div class="bg-[#03256c] w-full h-[300px] rounded-t-[5%] flex justify-center text-center gap-[70px] px-10">
+    <div class="max-w-full h-full rounded-t-[5%] flex-wrap justify-center items-center text-center gap-[70px] px-10">
         
-        <div class=" mt-16">
-            <div class="flex">
+        <div class="mt-16 text-center">
+            <div class="flex justify-center">
             <div class="text-gray-300 text-2xl">
-                <img class="w-[150px]" src="../assets/images/Снимок экрана 2023-06-21 232333.png" alt="logo">
+                <img class="max-w-[150px] mt-5" src="../assets/images/Снимок экрана 2023-06-21 232333.png" alt="logo">
             </div>
             </div>
-            <p class="w-[200px] mt-5 text-xl text-gray-300">Приветствует вас и желает вам крепкого здоровья.Спасибо что выберайте нас</p>                
+            <p class="max-w-[200px] mt-5 text-xl text-gray-300 mx-auto">Приветствует вас и желает вам крепкого здоровья.Спасибо что выберайте нас</p>                
         </div>
         
                 <div class="">
@@ -35,8 +35,10 @@
             <h4 class="my-5">Телеграм номер +998(90)922-69-84</h4>
             </a>
             <a href="https://t.me/htmlvuejsdark" class="flex text-center">
-            <h4>Наш телеграм канал</h4>
-            <i class="fa-brands fa-telegram mt-1 ml-5 text-blue-500"></i>
+            <div class="mx-auto">
+            <h4 class="flex">Наш телеграм канал</h4>
+            <i class="fa-brands fa-telegram mt-3 ml-5 text-blue-500"></i>
+            </div>
             </a>
         </div>
     </div>
@@ -54,5 +56,9 @@ export default {
     --blue: #2541b2;
     --greenblue: #1768ac;
     --lightblue: #2541b2;
+}
+
+.max-w-full {
+    background: #03256c;
 }
 </style>

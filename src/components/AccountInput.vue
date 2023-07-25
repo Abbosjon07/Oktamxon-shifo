@@ -1,6 +1,6 @@
 <template>
     <div class="input">
-                <div class="flex gap-3">
+                <div class="flex gap-3 max-w-[100%]">
                 <v-text-field 
                 class="my-5 text-gray-800 bg-white rounded-md"
                 v-model="comment"

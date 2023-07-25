@@ -1,55 +1,10 @@
 <template>
 <div class="">
-    
- <!-- Top -->
-    <div class="top flex justify-between font-medium">
-        <div class="icons flex gap-3 text-xl">
-            <ul>
-                <li>
-            <i class="fa-brands fa-facebook text-[#2541b2]"></i>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <a href="https://youtube.com/@abbosahmadjonov8551">
-            <i class="fa-brands fa-instagram text-red-600"></i>
-                    </a>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <a href="tel:+998(90)922-69-84">
-            <i class="fa-solid fa-phone text-green-600"></i>
-                    </a>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <a href="https://t.me/htmlvuejsdark">
-            <i class="fa-brands fa-telegram text-[#2541b2]"></i>                        
-                    </a>
-                </li>
-            </ul>
-        </div>
-        
-        <div class="phoneNumber flex gap-5 text-xl">
-            <ul>
-                <li>
-                    <a href="tel:+998(90)922-69-84">
-            <i class="fa-solid fa-phone text-[#2541b2]"></i>
-                    </a>
-                </li>
-            </ul>
-            <ul><li class="">+998(90)922-69-84</li></ul>
-            <ul><li>+998(94)606-30-76</li></ul>
-        </div>
-    </div>
-<!-- Top end -->
 
 <!-- Header -->
 <div class="header flex justify-between text-xl px-5 py-2 items-center">   
     <div class="img flex gap-3 items-center">
-    <img class="h-[70px]" src="../assets/images/Снимок экрана 2023-06-21 232333.png" alt="">
+    <img class="max-h-[70px]" src="../assets/images/Снимок экрана 2023-06-21 232333.png" alt="">
     </div>
     <div class="flex gap-10 font-semibold text-gray-200">
         <ul>
@@ -106,7 +61,7 @@ export default {
 }
 
 .header {
-    background: var(--darkblue);
+    background-color: #03256c;
 }
 
 .pages {
