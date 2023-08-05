@@ -1,6 +1,6 @@
 <template>
     <div class="input">
-                <div class="flex gap-3 max-w-[100%]">
+                <div class="flex mx-auto gap-3 max-w-[100%]">
                 <v-text-field 
                 class="my-5 text-gray-800 bg-white rounded-md"
                 v-model="comment"
@@ -10,7 +10,7 @@
                 ></v-text-field>  
                 <div class="pt-[10px]">
                 <v-btn 
-                class=" bg-light-blue-darken-3 text-end my-5 ml-2"
+                class=" bg-light-blue-darken-3 my-5 ml-2"
                 @click="sendCmment">отправить</v-btn> 
                 </div> 
             </div> 

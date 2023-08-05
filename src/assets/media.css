@@ -1,0 +1,51 @@
+@media(max-width: 1125px) {
+   .hero {
+       flex-wrap: wrap;
+       
+   }
+   .herobg {
+        height: 840px;
+   }
+}
+
+@media(max-width: 990px) {
+    .footer {
+        flex-wrap: wrap;
+    } 
+    .disc {
+        flex-wrap: wrap;
+    }  
+}
+
+@media(max-width: 735px) {
+    .cards-info {
+        flex-wrap: wrap; 
+    }
+}
+
+@media(max-width: 650px) {
+    .top {
+        flex-wrap: wrap; 
+    }
+    .icons {
+        margin: 0 auto;
+    }
+    .phoneNumber {
+        flex-wrap: wrap; 
+        margin: 0 0 0 35px;
+    }
+    .experiance {
+        max-width: 200px;
+    }
+}
+
+@media(max-width: 495px) {
+    .imgd {
+        max-width: 300px;
+        max-height: 300px;
+    }
+    .imgw {
+        max-height: 400px;
+        margin: 0 auto;
+    }
+}

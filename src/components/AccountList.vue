@@ -1,5 +1,5 @@
 <template>
-   <div class="flex justify-center text-center mt-[370px]">
+   <div class="flex justify-center text-center mt-16">
     <div class="accounts text-gray-700">   
     <div class="title">
     <h2 class="text-3xl font-semibold my-15">Комментарии</h2>

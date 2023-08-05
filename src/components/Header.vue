@@ -6,7 +6,25 @@
     <div class="img flex gap-3 items-center">
     <img class="max-h-[70px]" src="../assets/images/Снимок экрана 2023-06-21 232333.png" alt="">
     </div>
-    <div class="flex gap-10 font-semibold text-gray-200">
+    <!-- 
+
+    </div> -->
+    <v-menu class="">
+      <template v-slot:activator="{ props }">
+        <v-btn
+          color="primary"
+          v-bind="props"
+        >
+          Menu
+          <i class="fa-solid fa-bars ml-3"></i>
+        </v-btn>
+      </template>
+      <v-list>
+        <v-list-item
+    
+        >
+          <v-list-item-title>
+              <div class="font-semibold text-gray-500">
         <ul>
             <li>
         <router-link :to="{ name: 'home' }" class="pages hover:text-[#06bee1]">Главная</router-link> 
@@ -32,9 +50,14 @@
         <router-link :to="{ name: 'location' }" class="pages hover:text-[#06bee1]">Локация</router-link>
             </li>
         </ul>
-    </div>
+        </div>
+          </v-list-item-title>
+        </v-list-item>
+      </v-list>
+    </v-menu>
+    
 </div>
-
+    
 </div>
 </template>
 
@@ -42,7 +65,12 @@
 export default {
     data() {
         return {
-        //   greenBlue: "#2541b2"
+        items: [
+        { title: 'Click Me' },
+        { title: 'Click Me' },
+        { title: 'Click Me' },
+        { title: 'Click Me 2' },
+        ],
         }
     }
 }

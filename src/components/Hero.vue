@@ -1,12 +1,12 @@
 <template>
-    <div class="herobg pb-5 h-full max-w-full">
-        <div class="flex hero h-[500px] text-gray-100 pl-[50px] justify-center">
-            <div class="pt-[195px]">
-            <h1 class="text-5xl w-[650px] font-semibold">Лучшая медицинская служба, которая <span class="text-pink-400">ВЫ</span> можите доверять!</h1>
-            <p class="w-[570px] text-xl font-semibold">Наш врач "Госпожа Сохиба" - один из лучших кардиологов в Ташкенте, который поможет Вам нормализовать работу сердца и другие заболевания!</p>
-            </div>
+    <div class="herobg pb-5 max-w-full">
+        <div class="hero flex h-[500px] text-gray-100 justify-center">
             <div class="imgp">
-                <img src="https://img.freepik.com/free-photo/doctor-with-his-arms-crossed-white-background_1368-5790.jpg?w=2000" alt="Doctor" class="h-[500px] rounded-b-[50%]">
+                <img src="https://img.freepik.com/free-photo/doctor-with-his-arms-crossed-white-background_1368-5790.jpg?w=2000" alt="Doctor" class="imgd h-[450px] max-w-[450px] rounded-b-[50%] mx-5">
+            </div>
+            <div class="my-auto text pt-[45px] text-center">
+            <h1 class="text-5xl max-w-[650px] font-semibold mx-5">Лучшая медицинская служба, которая <span class="text-pink-400">ВЫ</span> можите доверять!</h1>
+            <p class="max-w-[570px] text-xl mx-5 font-semibold">Наш врач "Госпожа Сохиба" - один из лучших кардиологов в Ташкенте, который поможет Вам нормализовать работу сердца и другие заболевания!</p>
             </div>
         </div>
     </div>
@@ -21,6 +21,7 @@ export default {
 <style>
 .herobg {
 background: url('../assets/images/289319-medical-appointment-doctor-healthcare-clinic.jpg') no-repeat center / cover;
+min-height: 600px;
 position: relative;
 isolation: isolate;
 }

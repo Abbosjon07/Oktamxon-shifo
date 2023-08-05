@@ -1,8 +1,8 @@
 <template>
-    <div>
+    <div class="ref">
         <div class="pt-[10px]">
          <v-btn 
-        class=" bg-light-blue-darken-3 text-end my-5 mx-3"
+        class=" bg-light-blue-darken-3 my-5 mx-aouto"
         ><i class="fa-solid fa-arrows-rotate"></i></v-btn> 
         </div> 
     </div>
@@ -49,5 +49,4 @@ methods: {
 </script>
 
 <style>
-
 </style>

@@ -1,8 +1,11 @@
 <template>
 <div>
   <Preloader />
-  <Top/>
+    <Top/>
     <Header/> 
+  <div class="flex">
+    <!-- <Sadebar/> -->
+  </div>
    <router-view v-slot="{ Component }">
     <transition name="scale-effect" mode="out-in">
       <component :is="Component" />
@@ -18,6 +21,7 @@ import Top from './components/Top.vue'
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
 import Preloader from './components/Preloader.vue'
+// import Sadebar from './components/Sadebar.vue'
 
 
 export default {
@@ -25,7 +29,8 @@ export default {
     Header,
     Footer,
     Preloader,
-    Top
+    Top,
+    // Sadebar
     },
   data() {
     return {

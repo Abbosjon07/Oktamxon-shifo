@@ -30,7 +30,7 @@
             </ul>
         </div>
         
-        <div class="phoneNumber flex gap-5 text-xl">
+        <div class="phoneNumber ml-8 flex gap-5 text-xl justify-center">
             <ul>
                 <li>
                     <a href="tel:+998(90)922-69-84">
@@ -39,7 +39,14 @@
                 </li>
             </ul>
             <ul><li class="">+998(90)922-69-84</li></ul>
+            <ul class="flex gap-4">
+                <li>
+                    <a href="tel:+998(94)606-30-76">
+            <i class="fa-solid fa-phone text-[#2541b2]"></i>
+                    </a>
+                </li>
             <ul><li>+998(94)606-30-76</li></ul>
+            </ul>
         </div>
     </div>
 <!-- Top end -->
