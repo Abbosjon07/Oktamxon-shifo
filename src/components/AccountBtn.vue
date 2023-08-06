@@ -14,7 +14,7 @@ import { useToast } from 'vue-toastification'
 export default {
 data() {
     return {
-        api: 'https://o-ktamxon-shifo-default-rtdb.firebaseio.com/comments.json',
+        // api: 'https://o-ktamxon-shifo-default-rtdb.firebaseio.com/comments.json',
         comment: null,
         // comments: {},
         // counter: 0,

@@ -4,9 +4,9 @@
     <div class="title">
     <h2 class="text-3xl font-semibold my-15">Комментарии</h2>
     </div>  
-    
     <div class="scroller h-[400px] pr-5">
-        <Cards v-for="(comment, key) in comments" :key="key" :info="comment" :id="key" @commentDeleted="fetchComments"/> 
+        <!-- <Cards v-for="(comment, key) in comments" :key="key" :info="comment" :id="key" @commentDeleted="fetchComments"/>  -->
+        <pre>{{ comments }}</pre>
     </div>
     
     </div>

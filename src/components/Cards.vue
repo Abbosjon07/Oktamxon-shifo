@@ -40,7 +40,7 @@ export default {
     },
     data() {
       return {
-        api: 'https://o-ktamxon-shifo-default-rtdb.firebaseio.com/comments/',
+        api: 'https://o-ktamxon-shifo-29e3a-default-rtdb.firebaseio.com/comments',
         toast: useToast(),
         isOpen: false,
       }  
@@ -53,7 +53,7 @@ export default {
         async deletComment() {
             await fetch(this.api + this.id + '.json', { method: 'DELETE' })
             this.$emit('commentDeleted')
-            this.toast.success('Comment has been deleted!')
+            this.toast.success('Комментария был удален!')
         },
     }
 }

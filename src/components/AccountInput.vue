@@ -23,7 +23,7 @@ import { useToast } from 'vue-toastification'
 export default {
 data() {
     return {
-        api: 'https://o-ktamxon-shifo-default-rtdb.firebaseio.com/comments.json',
+        api: 'https://o-ktamxon-shifo-29e3a-default-rtdb.firebaseio.com/comments.json',
         comment: null,
         // comments: {},
         counter: 0,
@@ -33,7 +33,7 @@ data() {
 methods: {
     async sendCmment() {
         if (!this.comment) {
-            this.toast.warning('Please, Fill all filds')
+            this.toast.warning('Пожалуйста, заполните все поля')
             return
         }
         const res = await fetch(this.api, {
@@ -44,7 +44,7 @@ methods: {
             body: JSON.stringify(this.comment)
         })
         this.comment = null
-        this.toast.success('Your comment has been created!')
+        this.toast.success('Ваш комментарий создан!')
     },
     // async fetchComments() {
     //     const res = await fetch(this.api)
