@@ -24,7 +24,7 @@
     
         >
           <v-list-item-title>
-              <div class="font-semibold text-gray-500">
+              <div class="font-semibold text-gray-500 text-center">
         <ul>
             <li>
         <router-link :to="{ name: 'home' }" class="pages hover:text-[#06bee1]">Главная</router-link> 
@@ -50,6 +50,11 @@
         <router-link :to="{ name: 'location' }" class="pages hover:text-[#06bee1]">Локация</router-link>
             </li>
         </ul>
+        <div>
+        <!-- LANGUAGE -->
+        <Languages/>
+        <!-- LANGUAGE -->
+        </div>
         </div>
           </v-list-item-title>
         </v-list-item>
@@ -62,7 +67,13 @@
 </template>
 
 <script>
+import Languages from './Languages.vue'
+
 export default {
+    components: {
+      Languages  
+    },
+    
     data() {
         return {
         items: [

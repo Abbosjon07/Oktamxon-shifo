@@ -1,10 +1,10 @@
 <template>
-    <div class="footer max-w-full h-full rounded-t-[5%] flex justify-center items-center text-center gap-[70px] px-10">
+    <div class="footer max-w-full h-full rounded-t-[5%] flex justify-center text-center gap-[70px] px-10">
         
         <div class="mt-5 text-center">
             <div class="flex justify-center">
             <div class="text-gray-300 text-2xl">
-                <img class="max-w-[150px] mt-5" src="../assets/images/Снимок экрана 2023-06-21 232333.png" alt="logo">
+                <img class="max-w-[150px] mt-10" src="../assets/images/Снимок экрана 2023-06-21 232333.png" alt="logo">
             </div>
             </div>
             <p class="max-w-[200px] mt-5 text-xl text-gray-300 mx-auto">Приветствует вас и желает вам крепкого здоровья.Спасибо что выберайте нас</p>                

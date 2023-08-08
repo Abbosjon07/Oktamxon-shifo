@@ -1,11 +1,11 @@
 <template>
 <div>
     <Hero/>
-    <Section/>
-    <AccountList :key="counter"/>
+    <CardsInfo/>
+    <CommentList :key="counter"/>
     <div class="flex">
-    <AccountInput class="w-[1900px]"/>
-    <AccountBtn @click="counter++" class="mt-1 pr-2"/>
+    <CommentInput class="w-[1900px]"/>
+    <CommentBtn @click="counter++" class="mt-1 pr-2"/>
     </div>
     <Info/>
     <Map/>
@@ -14,10 +14,10 @@
 
 <script>
 import Hero from '../components/Hero.vue'
-import Section from '../components/Section.vue'
-import AccountList from '../components/AccountList.vue'
-import AccountInput from '../components/AccountInput.vue'
-import AccountBtn from '../components/AccountBtn.vue'
+import CardsInfo from '../components/CardsInfo.vue'
+import CommentList from '../components/CommentList.vue'
+import CommentInput from '../components/CommentInput.vue'
+import CommentBtn from '../components/CommentBtn.vue'
 import Info from '../components/Info.vue'
 import Map from '../components/map.vue'
 // import ThePopup from '../components/ThePopup.vue'
@@ -25,10 +25,10 @@ import Map from '../components/map.vue'
 export default {
     components: {
     Hero,
-    Section,
-    AccountList,
-    AccountInput,
-    AccountBtn,
+    CardsInfo,
+    CommentList,
+    CommentInput,
+    CommentBtn,
     Info,
     Map,
     // ThePopup
