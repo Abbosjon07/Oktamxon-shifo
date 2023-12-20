@@ -9,13 +9,21 @@
     <!-- 
 
     </div> -->
+        <v-btn
+        color="primary" 
+        class=" bg-light-blue-darken-3 my-5 mx-aouto"
+        >
+        <router-link :to="{ name: 'register' }">вход</router-link>
+        <i class="fa-solid fa-arrow-right-to-bracket ml-2"></i>
+    </v-btn> 
+    
     <v-menu class="">
       <template v-slot:activator="{ props }">
         <v-btn
           color="primary"
           v-bind="props"
         >
-          Menu
+          меню
           <i class="fa-solid fa-bars ml-3"></i>
         </v-btn>
       </template>

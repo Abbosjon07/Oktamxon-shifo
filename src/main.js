@@ -4,6 +4,7 @@ import router from './router'
 // import './assets/madia.css'
 import './assets/main.css'
 import Toast from 'vue-toastification'
+import store from './store'
 
 
 import 'vue-toastification/dist/index.css'
@@ -21,6 +22,7 @@ const vuetify = createVuetify({
 const app = createApp(App)
 
 app.use(router)
+app.use(store)
 app.use(vuetify)
 app.mount('#app')
 app.use(Toast)
